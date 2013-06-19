@@ -7,10 +7,10 @@ import time
 
 con = sqlite3.connect('Tweet.db')
 
-CONSUMER_KEY="M85dJGfKoZc2JuVTrx8FSA"
-CONSUMER_SECRET="QiCRp2H3hLFqwYSqprwYQqDB6AwnMoRK5vvxte0s"
-ACCESS_TOKEN="141077154-QkCGcwbGxzAUWE4USiTYvHt7gsagIXbnCCFDuPV8"
-ACCESS_TOKEN_SECRET="BdvV7Fiv1EaiZYhN8oNf7eiS2E2lCWpbLz3HLIOccY"
+CONSUMER_KEY="**********"
+CONSUMER_SECRET="**********"
+ACCESS_TOKEN="**********"
+ACCESS_TOKEN_SECRET="**********"
 
 api = twitter.Api(consumer_key=CONSUMER_KEY,
                       consumer_secret=CONSUMER_SECRET,
